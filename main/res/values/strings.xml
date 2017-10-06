@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CarListRecycler</string>
+    <string name="add_car_type">Add car type</string>
+    <string name="add_car_model">Add car model</string>
+    <string name="add_car_year">Add car year</string>
+    <string name="save_to_list">Save to list</string>
+</resources>
