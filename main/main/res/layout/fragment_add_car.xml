@@ -1,0 +1,71 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rynel.carlistrecycler.AddCarFragment">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvCarFragModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_car_fragment_model"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"/>
+
+            <EditText
+                android:id="@+id/etvCarFragModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvCarFragType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_car_fragment_type"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"/>
+
+            <EditText
+                android:id="@+id/etvCarFragType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvCarFragYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_car_fragment_year"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"/>
+
+            <EditText
+                android:id="@+id/etvCarFragYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnAddCar"
+                android:text="@string/add_car_fragment_button"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

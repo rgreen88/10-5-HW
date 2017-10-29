@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CarListRecycler</string>
+    <string name="add_car_type">Add car type</string>
+    <string name="add_car_model">Add car model</string>
+    <string name="add_car_year">Add car year</string>
+    <string name="save_to_list">Save to list</string>
+    <string name="add_car_fragment_model">add car fragment model</string>
+    <string name="add_car_fragment_type">add car fragment type</string>
+    <string name="add_car_fragment_year">add car fragment year</string>
+    <string name="add_car_fragment_button">add car fragment button</string>
+</resources>
